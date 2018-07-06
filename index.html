@@ -10,10 +10,10 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-
+<link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
     <!-- Plugins -->
-    <link href="plugins/rs-plugin/css/settings.css" media="screen" rel="stylesheet">
-    <link href="plugins/rs-plugin/css/extralayers.css" media="screen" rel="stylesheet">
+    <!-- <link href="plugins/rs-plugin/css/settings.css" media="screen" rel="stylesheet">
+    <link href="plugins/rs-plugin/css/extralayers.css" media="screen" rel="stylesheet"> -->
 
 </head>
 <body>
@@ -31,6 +31,9 @@
         <li><a href="#">In Packsack</a></li>
         <li><a href="#">Get in Touch</a></li>
         <li><a href="sass.html"><i class="material-icons pt2">search</i></a></li>
+        <li><a href="sass.html"><span class="mdi mdi-facebook"></span></a></li>
+        <li><a href="sass.html"><span class="mdi mdi-instagram"></span></a></li>
+
       </ul>
       <!-- <div id="sb-search" class="sb-search">
     	<form>
@@ -58,14 +61,14 @@
     <ul class="slides">
       <li>
         <img src="image/banner-1.jpg" alt="">
-        <div class="caption left-align">
-          <h2>Take Your Dream Vacation</h2>
-          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam non illo earum cumque id est!</h5>
-          <a href="#" class="btn btn-large">Learn More</a>
+        <div class="caption left">
+          <h1 class="text-brown text-darken-1">Khongor Sand Dune, Umnugobi</h1>
+          <h5 class="light text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam non illo earum cumque id est!</h5>
+          <a href="#" class="btn btn-large ">Learn More</a>
         </div>
       </li>
       <li>
-        <img src="image/lake.jpg" alt="">
+        <img src="image/banner-2.jpg" alt="">
         <div class="caption left-align">
           <h2>We Work With All Budgets</h2>
           <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam non illo earum cumque id est!</h5>
@@ -324,8 +327,8 @@
   <script src="js/init.js"></script>
 
   <!-- jQuery REVOLUTION Slider  -->
-  <script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-  <script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+  <!-- <script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script> -->
+  <!-- <script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> -->
 
 
   <script>
@@ -341,8 +344,8 @@
 //        Init Slider
         $('.slider').slider({
           indicators: false,
-          height: 500,
-          transition: 200,
+          height: 520,
+          transition: 500,
           interval: 10000
         });
 
@@ -394,63 +397,63 @@
         // ends isotype
 
         //Revolution Slider
-        if ($(".slider-banner-container").length>0) {
-
-          $(".tp-bannertimer").show();
-
-          $('.slider-banner-container .slider-banner').show().revolution({
-
-            delay:20000,
-            startwidth:1140,
-            startheight:520,
-
-
-
-            navigationType:"none",				// bullet, thumb, none
-            navigationInGrid:"off",
-            navigationArrows:"none",
-
-            // navigationHOffset:0,
-            // navigationVOffset:20,
-            //
-            // soloArrowLeftHalign:"left",
-            // soloArrowLeftValign:"center",
-            // soloArrowLeftHOffset:20,
-            // soloArrowLeftVOffset:0,
-            //
-            // soloArrowRightHalign:"right",
-            // soloArrowRightValign:"center",
-            // soloArrowRightHOffset:20,
-            // soloArrowRightVOffset:0,
-
-            // fullWidth:"off",
-            fullWidth:"on",
-
-            spinner:"spinner0",
-
-            stopLoop:"off",
-            stopAfterLoops:-1,
-            stopAtSlide:-1,
-            onHoverStop: "off",
-
-            shuffle:"off",
-
-            autoHeight:"off",
-            forceFullWidth:"off",
-
-            hideThumbsOnMobile:"off",
-            hideNavDelayOnMobile:1500,
-            hideBulletsOnMobile:"off",
-            hideArrowsOnMobile:"off",
-            hideThumbsUnderResolution:0,
-
-            hideSliderAtLimit:0,
-            hideCaptionAtLimit:0,
-            hideAllCaptionAtLilmit:0,
-            startWithSlide:0
-          });
-
-        };
+        // if ($(".slider-banner-container").length>0) {
+        //
+        //   $(".tp-bannertimer").show();
+        //
+        //   $('.slider-banner-container .slider-banner').show().revolution({
+        //
+        //     delay:20000,
+        //     startwidth:1140,
+        //     startheight:520,
+        //
+        //
+        //
+        //     navigationType:"none",				// bullet, thumb, none
+        //     navigationInGrid:"off",
+        //     navigationArrows:"none",
+        //
+        //     // navigationHOffset:0,
+        //     // navigationVOffset:20,
+        //     //
+        //     // soloArrowLeftHalign:"left",
+        //     // soloArrowLeftValign:"center",
+        //     // soloArrowLeftHOffset:20,
+        //     // soloArrowLeftVOffset:0,
+        //     //
+        //     // soloArrowRightHalign:"right",
+        //     // soloArrowRightValign:"center",
+        //     // soloArrowRightHOffset:20,
+        //     // soloArrowRightVOffset:0,
+        //
+        //     // fullWidth:"off",
+        //     fullWidth:"on",
+        //
+        //     spinner:"spinner0",
+        //
+        //     stopLoop:"off",
+        //     stopAfterLoops:-1,
+        //     stopAtSlide:-1,
+        //     onHoverStop: "off",
+        //
+        //     shuffle:"off",
+        //
+        //     autoHeight:"off",
+        //     forceFullWidth:"off",
+        //
+        //     hideThumbsOnMobile:"off",
+        //     hideNavDelayOnMobile:1500,
+        //     hideBulletsOnMobile:"off",
+        //     hideArrowsOnMobile:"off",
+        //     hideThumbsUnderResolution:0,
+        //
+        //     hideSliderAtLimit:0,
+        //     hideCaptionAtLimit:0,
+        //     hideAllCaptionAtLilmit:0,
+        //     startWithSlide:0
+        //   });
+        //
+        // };
 
         // end Revolution slider
   });
