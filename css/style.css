@@ -6,6 +6,13 @@
  * Made By MaterializeCSS.com
  */
 
+ .faq{
+   position: inherit;
+   display: block;
+   margin-top: 20px;
+
+ }
+
 
  /*  list inline */
 
@@ -20,10 +27,12 @@
   padding-left: 0px;
 }
 
-/* div.route-wrapper{
+ div.route-wrapper{
   display: inline-block;
   width: 100%;
 }
+
+/*
 
  .anchor{
    display: block;
